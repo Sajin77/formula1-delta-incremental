@@ -11,7 +11,8 @@ The solution is designed around incremental processing, idempotent transformatio
 | Category | Tools |
 |---|---|
 | **Cloud Platform** | Azure (Storage Accounts, Containers, External Locations, Unity Catalog) |
-| **Processing Engine** | Azure Databricks (Serverless Compute, PySpark, Delta Lake) |
+| **Processing Engine** | Azure Databricks (Serverless Compute, Spark, Delta Lake) |
+| **Programming** | Python, PySpark, SQL |
 | **Orchestration** | Databricks Lakeflow Jobs (Master–Child pipelines with conditional branching & state management) |
 | **Data Modeling** | Star Schema (Dimension & Fact tables) |
 | **Data Governance** | Unity Catalog |
